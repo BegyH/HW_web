@@ -2,6 +2,44 @@ body {
 	background-image: url("../img/background_italia.jpg");
 	background-size: 100%;
 }
+
+#tbl-1{
+	left: 50%;
+	top: 5%;
+	width: 100%;
+	height: 20%;
+	/*border: 2px solid green;*/
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+}
+
+#one_one{
+
+	grid-row-start: 1;
+	grid-row-end: 1;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	align-items: end;
+	/*left: 10%;*/
+}
+
+#two_one{
+	grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	/*align-items: center;*/
+
+}
+#two_two{
+
+	grid-row-start: 2;
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	/*align-items: revert;*/
+}
 .header{
 	 position: absolute;
 	 width: 550px;
@@ -13,7 +51,7 @@ body {
 }
 .header h1 {
     position: absolute;
-    left: 5%;
+    left: 7%;
     top: 35%;
     font: italic 3em Georgia;
     color: rgb(16, 82, 82);
@@ -47,6 +85,7 @@ body {
 .main h1{
 	margin: 0 auto;
 	margin-top: 10px;
+	left: 10%;
 }
 .main h2{
 	margin-left: 5%;
@@ -59,6 +98,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 }
+
 .main p{
 	margin-left: 5%;
 	margin-right: 5%;
@@ -76,6 +116,7 @@ body {
 	margin-top: 3px;
 	margin-right: 5%;
 	list-style-type: armenian;
+
 }
 .main ol li{
 	padding: 0;
